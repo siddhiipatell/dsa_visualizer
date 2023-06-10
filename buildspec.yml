@@ -1,4 +1,4 @@
-version: 0.1
+version: 0.2
 
 phases:
   install:
@@ -7,12 +7,10 @@ phases:
 
   pre_build:
     commands:
-      - echo installing dependencies...
       - npm install
 
   build:
     commands:
-      - echo building...
       - npm run dev
 
 
